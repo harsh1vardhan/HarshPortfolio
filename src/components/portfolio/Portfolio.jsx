@@ -6,14 +6,14 @@ const items = [
     {
         id: 1,
         title: "FlixWish - Movie React App",
-        img:"public/movie.png",
+        img:"movie.png",
         desc: "Built React app with use Effect for TMDB API, cutting search time by 50% and boosting user satisfaction .Applied efficient skeleton loading techniques to elevate the user interface experience during data retrieval.",
         link: "https://flixwish.vercel.app/",
     }, 
     {
         id: 2,
         title: "FOOD DELIVERY SYSTEM",
-        img:"public/f1.png",
+        img:"f1.png",
         desc: "Developed a web application for online food delivery, seamlessly integrating Razor pay as the payment gateway. Employed distinct database schemas for efficient food item ordering Integrating Google login using OAuth, resulting in a 40% increase in user registration efficiency.",
         link: "https://cufood.000webhostapp.com/",
     }, 
@@ -21,14 +21,14 @@ const items = [
     {
         id: 3,
         title: "MovieeGo - IMDB",
-        img:"public/Movie2.png",
+        img:"Movie2.png",
         desc: "MovieZone: Discover, Explore, Enjoy Explore movies effortlessly with MovieZone. Personalized recommendations, a vast database, user reviews, and smooth navigation—powered by React for speed and Framer Motion for stunning animations. Your ultimate movie companion.",
         link: "https://movieego.netlify.app/",
     }, 
     {
         id: 4,
         title: "IPH School (For Client)",
-        img:"public/school.png",
+        img:"school.png",
         desc: "Experience the perfect blend of creativity and functionality with our client's website. Built using HTML, CSS, JavaScript, and React, it offers a seamless user interface and dynamic features. From responsive design to interactive elements, discover innovation at every click.",
         link: "https://imperialpublichighschool.netlify.app/",
     }, 
