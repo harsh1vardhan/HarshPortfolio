@@ -5,27 +5,32 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
     {
         id: 1,
-        title: "React Commerce",
-        img:"https://images.pexels.com/photos/20782542/pexels-photo-20782542/free-photo-of-green-village-landscape-in-countryside.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-        desc: "Lorem wfergbhuijokp uhijop vuhijokpl fuhidkop rujidokpghjohjkhjkhhhhhhhhhh",
+        title: "FlixWish - Movie React App",
+        img:"public/movie.png",
+        desc: "Built React app with use Effect for TMDB API, cutting search time by 50% and boosting user satisfaction .Applied efficient skeleton loading techniques to elevate the user interface experience during data retrieval.",
+        link: "https://flixwish.vercel.app/",
     }, 
     {
         id: 2,
-        title: "Music Commerce",
-        img:"https://images.pexels.com/photos/20782542/pexels-photo-20782542/free-photo-of-green-village-landscape-in-countryside.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-        desc: "Lorem wfergbhuijokp uhijop vuhijokpl fuhidkop rujidokpghjohjkhjkhhhhhhhhhh",
+        title: "FOOD DELIVERY SYSTEM",
+        img:"public/f1.png",
+        desc: "Developed a web application for online food delivery, seamlessly integrating Razor pay as the payment gateway. Employed distinct database schemas for efficient food item ordering Integrating Google login using OAuth, resulting in a 40% increase in user registration efficiency.",
+        link: "https://cufood.000webhostapp.com/",
     }, 
+    
     {
         id: 3,
-        title: "Next.js Commerce",
-        img:"https://images.pexels.com/photos/20782542/pexels-photo-20782542/free-photo-of-green-village-landscape-in-countryside.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-        desc: "Lorem wfergbhuijokp uhijop vuhijokpl fuhidkop rujidokpghjohjkhjkhhhhhhhhhh",
+        title: "MovieeGo - IMDB",
+        img:"public/Movie2.png",
+        desc: "MovieZone: Discover, Explore, Enjoy Explore movies effortlessly with MovieZone. Personalized recommendations, a vast database, user reviews, and smooth navigation—powered by React for speed and Framer Motion for stunning animations. Your ultimate movie companion.",
+        link: "https://movieego.netlify.app/",
     }, 
     {
         id: 4,
-        title: "Vanilla Commerce",
-        img:"https://images.pexels.com/photos/20782542/pexels-photo-20782542/free-photo-of-green-village-landscape-in-countryside.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-        desc: "Lorem wfergbhuijokp uhijop vuhijokpl fuhidkop rujidokpghjohjkhjkhhhhhhhhhh",
+        title: "IPH School (For Client)",
+        img:"public/school.png",
+        desc: "Experience the perfect blend of creativity and functionality with our client's website. Built using HTML, CSS, JavaScript, and React, it offers a seamless user interface and dynamic features. From responsive design to interactive elements, discover innovation at every click.",
+        link: "https://imperialpublichighschool.netlify.app/",
     }, 
 ];
 
@@ -50,7 +55,9 @@ const Single =({ item }) =>{
         <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+                        <a href={item.link}>
+                            <button>See Demo</button>
+                        </a>
         </motion.div>
         </div>
       </div>
