@@ -29,13 +29,13 @@
       }
 
       h2 {
-        font-size: 30px;
+        font-size: 25px;
         color: rgb(86, 252, 255);
-        letter-spacing: 10px;
+        letter-spacing: 7px;
       }
 
       h1 {
-        font-size: 88px;
+        font-size: 75px;
         font-family:'Times New Roman', Times, serif;
         letter-spacing: 10px;
 
@@ -98,7 +98,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: 180px;
+      border-radius: 150px;
 
       @include mobile {
         width: 100%;
