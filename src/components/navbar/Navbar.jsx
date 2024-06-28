@@ -14,9 +14,9 @@ const Navbar = () => {
           transition={{ duration:0.5}}>Harsh Vardhan</motion.span>
             
             <div className="social">
-                <a href="#"><img src="/facebook.png" alt=""/></a>
-                <a href="#"><img src="/instagram.png" alt=""/></a>
-                <a href="#"><img src="/youtube.png" alt=""/></a>
+                <a href="https://www.facebook.com/harshvardhansinha.sinha.1"><img src="/facebook.png" alt=""/></a>
+                <a href="https://www.instagram.com/harsh_vardhan_sinha/"><img src="/instagram.png" alt=""/></a>
+                <a href="https://www.youtube.com/channel/UCqPse5lAhkr6X3cZ5BCbmSA"><img src="/youtube.png" alt=""/></a>
                 <a href="#"><img src="/dribbble.png" alt=""/></a>
             </div>
         </div>
