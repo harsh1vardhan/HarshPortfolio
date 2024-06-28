@@ -62,38 +62,36 @@ const isInView = useInView(ref, {margin: "-100px"})
             className="box"
             whileHover={{background: "lightgray", color: "black"}}
             >
-            <h2> Branding</h2>
+            <h2> Website Building</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum, illum sunt rerum incidunt asperiores quos saepe accusamus quisquam totam corporis hic tempora illo maxime dignissimos, provident praesentium dicta eligendi.
-            </p>
+                   I create custom websites that match your brand’s identity and goals. Whether you need a corporate site, an e-commerce platform, or a portfolio, I ensures a smooth user experience and modern design.                    </p>
             <button>Go</button>
         </motion.div>
         <motion.div className="box"
             whileHover={{background: "lightgray", color: "black"}}
              >
-            <h2> Branding</h2>
+            <h2> Social Media Management</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum, illum sunt rerum incidunt asperiores quos saepe accusamus quisquam totam corporis hic tempora illo maxime dignissimos, provident praesentium dicta eligendi.
-            </p>
+            Boost your social media presence with our management services. We handle content creation, scheduling, engagement, and analytics to increase your brand visibility and connect with your audience effectively.            </p>
             <button>Go</button>
             </motion.div>
         <motion.div className="box"
             whileHover={{background: "lightgray", color: "black"}}
            >
-            <h2> Branding</h2>
+            <h2> Graphic Designing
+            </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum, illum sunt rerum incidunt asperiores quos saepe accusamus quisquam totam corporis hic tempora illo maxime dignissimos, provident praesentium dicta eligendi.
-            </p>
+            Bring your ideas to life with our graphic design services. From logos and branding to promotional graphics and infographics, we create eye-catching designs that communicate your message clearly. We cater to both digital and print media.            </p>
             <button>Go</button>
         </motion.div>
 
         <motion.div className="box"
             whileHover={{background: "lightgray", color: "black"}}
            >
-            <h2> Branding</h2>
+            <h2> Investment Strategy
+            </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum, illum sunt rerum incidunt asperiores quos saepe accusamus quisquam totam corporis hic tempora illo maxime dignissimos, provident praesentium dicta eligendi.
-            </p>
+            Navigate financial markets with ease using our investment strategy services. We offer personalized guidance on portfolio management, asset allocation, and market analysis to help you achieve your financial goals and optimize your investments.            </p>
             <button>Go</button>
         </motion.div>
 
