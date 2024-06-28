@@ -3,13 +3,14 @@
     height: 100px;
 
     .wrapper{
-        max-width: 1366px;
+        max-width: 1266px;
         font-size: 33px;
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 100%;
+        
 
         @include mobile{
             justify-content: flex-end;
