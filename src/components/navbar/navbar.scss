@@ -4,6 +4,7 @@
 
     .wrapper{
         max-width: 1366px;
+        font-size: 33px;
         margin: auto;
         display: flex;
         align-items: center;
@@ -28,8 +29,8 @@
             gap: 20px;
 
             img{
-                width: 10px;
-                height: 10px;
+                width: 30px;
+                height: 30px;
             }
         }
     }
